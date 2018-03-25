@@ -1,0 +1,12 @@
+# Navigation
+alias ..="cd .."
+alias ls="ls -la"
+
+# Shortcuts
+alias h="history"
+
+# Reload the shell (i.e. invoke as a login shell)
+alias reload="exec $SHELL -l"
+
+# Git
+alias g="git"
