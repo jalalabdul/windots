@@ -219,14 +219,20 @@ F11::Send {vkAEsc12E}
 F12::Send {vkAFsc130}
 F10::Send {vkADsc120}
 
-~LAlt Up::
-{   send {lalt up}
+LAlt up::
+If (A_PriorKey = "LAlt") ;  If LAlt was pressed alone
+    return ; do nothing
 return
-}
+
+; In this case its necessary to define a custom combination by using "LAlt &" or "<!" 
+; to avoid that LAlt loses its original function as a modifier key:
+
+<!F4:: Send {Alt Down}{F4}{Alt Up} ; <! means LAlt
 
 #IfWinActive, ahk_class illustrator
-
+{
 `::Delete
+}
 
 #IfWinActive ahk_class Chrome_WidgetWin_1
 {
