@@ -4,10 +4,9 @@ Small utility & tools to make Windows better OS. 😝
 ## What's inside
 
 * Ubuntu/WSL dotfiles
-* AHK Script (Enable volume + brightness media keys, disable ALT in Adobe apps)
-* Adobe: Photoshop wacom fix, Premiere RJFS Keyboards
+* AHK Script: Enable volume + brightness media keys on ASUS Laptop, disable ALT + Menu interaction, Disable CTRL + Scroll zoom interaction in Chrome)
+* Adobe: Photoshop wacom fix, Premiere [RJFS Keyboards](https://school.rocketjump.com/learn/editing-container/keyboard-shortcuts)
 * Hyper terminal config
-* Foobar skin
 
 ## Setup
 * install WSL

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ImageProcessorProSettings>
+  <input source="openImages"/>
+  <output path="D:\git\jalalabdul.github.io\img\personal" subfolder="false" keepStructure="false" retainOriginal="true"/>
+  <taskList>
+    <task enabled="true" subfolderName="" colorProfile="sRGB IEC61966-2.1">
+      <saveOptions fileSaveType="jpg" jpgQuality="12" jpgEmbedColorProfile="true" jpgFormat="Standard" jpgConvertToSRGB="false" saveForWeb="false"/>
+      <resizeOptions enabled="true" dontEnlarge="false" width="1170" widthUnits="Pixels" height="0" heightUnits="Pixels" resolution="72" resolutionUnits="pixels/inch" scale="true" resampleMethod="bicubicsharper"/>
+      <action enabled="false" when="Before Image Resize" set="Default Actions" name="Sepia Toning (layer)"/>
+      <namingOptions startingSerial="1">personal_,Name</namingOptions>
+    </task>
+    <task enabled="true" subfolderName="" colorProfile="sRGB IEC61966-2.1">
+      <saveOptions fileSaveType="jpg" jpgQuality="12" jpgEmbedColorProfile="true" jpgFormat="Standard" jpgConvertToSRGB="false" saveForWeb="false"/>
+      <resizeOptions enabled="true" dontEnlarge="false" width="480" widthUnits="Pixels" height="0" heightUnits="Pixels" resolution="72" resolutionUnits="pixels/inch" scale="true" resampleMethod="bicubic"/>
+      <action enabled="false" when="After Image Resize" set="Default Actions" name="Vignette (selection)"/>
+      <namingOptions startingSerial="1">personal_,Name,_small</namingOptions>
+    </task>
+  </taskList>
+  <preferences>
+    <preserveFileName>false</preserveFileName>
+  </preferences>
+  <date>2018-08-05T17:43:18</date>
+  <version>3.2b5</version>
+  <uiPrefs>
+    <lastSettingsFile>D:\git\windots\adobe\photoshop\Image Processor Pro.xml</lastSettingsFile>
+  </uiPrefs>
+</ImageProcessorProSettings>
