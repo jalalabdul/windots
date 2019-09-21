@@ -1,8 +1,8 @@
 #!/bin/bash
 
-curl -X DELETE "https://api.cloudflare.com/client/v4/zones/1f3e6c739269fc1fc008890eb0dcb172/purge_cache" \
+curl -X DELETE "https://api.cloudflare.com/client/v4/zones/[ZONE ID]/purge_cache" \
 -H "X-Auth-Email: jalalabdulaziz@gmail.com" \
--H "X-Auth-Key: 99aaf986b44374c54ccbe603eac26dc790a3b" \
+-H "X-Auth-Key: [API KEY]" \
 -H "Content-Type:application/json" \
 --data '{"purge_everything":true}'
 
