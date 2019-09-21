@@ -1,0 +1,20 @@
+# Navigation
+alias ..="cd .."
+alias ls="ls -la"
+
+# Shortcuts
+alias h="history"
+
+# Reload the shell (i.e. invoke as a login shell)
+alias reload="exec $SHELL -l"
+
+# Git
+alias g="git"
+
+# Jekyll Development
+alias js="bundle exec jekyll serve --config "_config.yml,_config_dev.yml""
+alias jb="bundle exec jekyll build"
+alias jp="git add . && git commit -m "update" && git push origin master && sh ~/.scripts/purgecloudflarecache.sh" 
+
+# Misc
+alias open="~/.scripts/open.sh"
